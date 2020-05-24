@@ -7,7 +7,7 @@ const BookReducer = (state, action) => {
      {
 
          case 'Add_Book' : 
-         console.log(action.book);
+        
          if(action.book.title ==="" || action.book.author ==="")
          {
              return state;
